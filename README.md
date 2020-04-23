@@ -13,6 +13,7 @@ For people who want to make their own website check out the templates provided b
 ===================================================================================
 
 1. https://templatemo.com/
+-----------------------------------------------------------------------------------
 2. https://www.free-css.com/free-css-templates
 3. https://templated.co/
 4. https://colorlib.com/wp/free-html-website-templates/
