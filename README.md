@@ -1,6 +1,6 @@
 # shreyasbarve.github.io
 
-==================================================================================================
+=======================================================================================
 
 This is a personal website created by me with the help of a template provided by Web Designers.
 I edited the site and gave it a complete new look.
