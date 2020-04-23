@@ -1,14 +1,17 @@
 # shreyasbarve.github.io
 
 ==================================================================================================
+
 This is a personal website created by me with the help of a template provided by Web Designers.
 I edited the site and gave it a complete new look.
 The reason why I chose to go for ready made template instead of creating one is it's responsive design.
+
 ==================================================================================================
 
 For people who want to make their own website check out the templates provided by these sites:
 
 ==================================================================================================
+
 1. https://templatemo.com/
 2. https://www.free-css.com/free-css-templates
 3. https://templated.co/
