@@ -1,40 +1,47 @@
 export default function Projects() {
+  let bullet = String.fromCodePoint(8226);
+
   const data = [
     {
       title: "Smart Parking Management System",
-      description1:
-        "● Android application to eliminate the need of parking lot attendant by automating the process of finding parking lots via our custom map.",
-      description2:
-        "● Charging of parking will be done using the number plate of cars which will be done using a small camera fixed at the entrance of parking. The number plate will be mapped to the user registered on the application.",
-      description3: "● Uses YOLOv4 model for number plate detection.",
+      description:
+        bullet +
+        " Android application to eliminate the need of parking lot attendant by automating the process of finding parking lots via our custom map.\n" +
+        bullet +
+        " Charging of parking will be done using the number plate of cars which will be done using a small camera fixed at the entrance of parking. The number plate will be mapped to the user registered on the application.\n" +
+        bullet +
+        " Uses YOLOv4 model for number plate detection.",
       site: "#",
     },
     {
       title: "Disease Predictor",
-      description1:
-        "● Web based application for prediction of diseases like Diabetes and Pneumonia.",
-      description2:
-        "● Created the frontend for the application using React framework and worked with the Firebase realtime database, API calls.",
-      description3: "",
+      description:
+        bullet +
+        " Web based application for prediction of diseases like Diabetes and Pneumonia.\n" +
+        bullet +
+        " Created the frontend for the application using React framework and worked with the Firebase realtime database, API calls.",
       site: "https://diseasepredictor.netlify.app/",
     },
     {
       title: "SHINE In Exams",
-      description1:
-        "● Serve as a helpline for students who are appearing for board exams for first time during COVID pandemic",
-      description2:
-        "● Team of education department will be present to reply to the queries submitted by the students",
-      description3:
-        "● Contains FAQs, list of examination centres, Time-Table, link to the official website etc.",
+      description:
+        bullet +
+        " Serve as a helpline for students who are appearing for board exams for first time during COVID pandemic\n" +
+        bullet +
+        " Team of education department will be present to reply to the queries submitted by the students\n" +
+        bullet +
+        " Contains FAQs, list of examination centres, Time-Table, link to the official website etc.",
       site: "https://play.google.com/store/apps/details?id=in.nic.mah.shine",
     },
     {
       title: "Classroom Management System",
-      description1:
-        "● A platform for small time tutions and classes or even schools who cannot afford g-suite or similar online platforms",
-      description2:
-        "● One stop platform for all materials like exams, marks, assignments, attendance, performance report",
-      description3: "● Available for both Web and Mobile",
+      description:
+        bullet +
+        " A platform for small time tutions and classes or even schools who cannot afford g-suite or similar online platforms\n" +
+        bullet +
+        " One stop platform for all materials like exams, marks, assignments, attendance, performance report\n" +
+        bullet +
+        " Available for both Web and Mobile",
       site: "https://learnzillaedu.netlify.app/",
     },
   ];
@@ -58,10 +65,8 @@ export default function Projects() {
                     {item.title}
                   </a>
                 </div>
-                <div className="text-md text-gray-500">
-                  <p>{item.description1}</p>
-                  <p>{item.description2}</p>
-                  <p>{item.description3}</p>
+                <div className="text-md text-gray-500 whitespace-pre-wrap">
+                  {item.description}
                 </div>
               </div>
             </div>

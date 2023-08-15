@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="app">
       <Navbar />
-      <main className="mx-5">
+      <main className="px-10">
         <About />
 
         <Experience />

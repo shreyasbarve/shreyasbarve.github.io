@@ -9,7 +9,8 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="bg-white fixed top-0 w-full z-30 shadow-lg h-14 flex items-center justify-end">
+      <nav className="bg-white shadow-lg fixed top-0 w-full z-30 h-14 flex items-center justify-end">
+        {/* hamburger menu button */}
         <div onClick={handleMenuClick} className="pr-6 lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -30,9 +31,10 @@ export default function Navbar() {
 
       <div
         id="nav"
-        className="h-screen hidden z-50 fixed top-0 w-full bg-white flex-col justify-evenly lg:justify-center lg:space-x-10 text-center lg:flex lg:flex-row lg:h-14 lg:items-center text-xl text-gray-800 uppercase tracking-widest font-semibold"
+        className="h-screen hidden z-50 bg-white fixed top-0 w-full flex-col justify-evenly lg:justify-center lg:space-x-10 text-center lg:flex lg:flex-row lg:h-14 lg:items-center text-xl text-gray-800 uppercase tracking-widest font-semibold"
       >
-        <div className="flex flex-row justify-end pr-6 lg:hidden">
+        {/* cross button */}
+        <div className="flex flex-row justify-end pr-6 absolute top-4 right-0 lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -89,8 +91,6 @@ export default function Navbar() {
             Contact
           </a>
         </div>
-
-        <div className="lg:hidden" />
       </div>
     </div>
   );

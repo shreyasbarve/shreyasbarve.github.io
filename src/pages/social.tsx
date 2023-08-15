@@ -24,6 +24,17 @@ export default function Social() {
         />
       ),
     },
+    {
+      name: "Salesforce",
+      link: "https://www.salesforce.com/trailblazer/shreyasbarve",
+      icon: (
+        <img
+          alt="Salesforce icon"
+          src="https://img.icons8.com/?size=2x&id=65857&format=png"
+          style={imgStyle}
+        />
+      ),
+    },
   ];
 
   return (
