@@ -1,6 +1,31 @@
 export default function Certificates() {
   const data = [
     {
+      name: "Salesforce Certified Data Cloud Consultant",
+      provider: "Salesforce",
+      link: "https://sforce.co/verifycerts",
+    },
+    {
+      name: "Salesforce Certified AI Specialist",
+      provider: "Salesforce",
+      link: "https://sforce.co/verifycerts",
+    },
+    {
+      name: "Salesforce Certified Platform Developer 1",
+      provider: "Salesforce",
+      link: "https://sforce.co/verifycerts",
+    },
+    {
+      name: "Salesforce Certified AI Associate",
+      provider: "Salesforce",
+      link: "https://sforce.co/verifycerts",
+    },
+    {
+      name: "Salesforce Certified Administrator",
+      provider: "Salesforce",
+      link: "https://sforce.co/verifycerts",
+    },
+    {
       name: "Introduction to Japanese Language and Culture",
       provider: "NPTEL • IIT Kanpur",
       link: "https://nptel.ac.in/content/noc/NOC19/SEM2/Ecertificates/121/noc19-hs52/Course/NPTEL19HS52S318506230cae52511e9b8f66b31f3a57258.jpg",
