@@ -4,27 +4,29 @@ export default function Experience() {
   const data = [
     {
       title: "Persistent Systems Limited",
-      category: "Software Engineer",
+      category: "Senior Software Engineer",
       experience:
         bullet +
-        " I have a great deal of experience working on migration projects where I was instrumental in converting Process Builders to Flows, which produced streamlined and effective automated processes. This required examining current procedures, creating fresh work flows, and ensuring a smooth changeover. I was able to successfully increase the Salesforce Org's overall performance and scalability by utilizing the power of flows.\n" +
+        " Built and maintained robust Apex components (Triggers, Batch, Schedulable, Test Classes), Process Builders, Workflow Rules, and Flows, enhancing system reliability by 30% and reducing processing times.\n" +
         bullet +
-        " Thoroughly tested each component of the project, including automations, validation rules, page layouts, and data integrity. This made it possible for me to spot problems right away and fix them.\n" +
+        " Designed and implemented a dynamic LWC Dashboard, integrated with Apex Controllers, improving data access and reducing data retrieval efforts for regional sales teams by over 50%.\n" +
         bullet +
-        " I got familiar with crucial tools like Dataloader.io and Gearset to make data management and deployment duties easier. These tools assisted with maintaining data integrity throughout the orgs and facilitating seamless data migration between them.\n" +
+        "Worked on complex Experience and Service Cloud projects, configuring Object Models, Sharing Settings, and Org-Wide Addresses for secure, streamlined data flow.\n" +
         bullet +
-        " Worked on developing triggers, batch classes, and schedulable classes when it came to coding and development. Additionally, additional test classes had to be created in order to accommodate the functionality that I developed.\n" +
-        bullet +
-        " Key player in handling the client's website's Register functionality. This required managing errors, translating languages for various areas, and leveraging Custom Metadata to provide a simple and user-friendly experience.\n",
-      duration: "June 2022 - Present",
+        " Customized user experience with responsive Page Layouts, Lightning Record Pages, AURA, and LWC components, increasing efficiency by up to 40% across teams.",
+      duration: "June 2024 - Present",
     },
     {
       title: "Persistent Systems Limited",
-      category: "Academic Intern",
+      category: "Software Engineer",
       experience:
         bullet +
-        " Took training on GIT, Java, HTML, CSS, JavaScript and Salesforce.",
-      duration: "Dec 2021 - May 2022",
+        " Spearheaded the conversion of Process Builders to Flows, creating more efficient automated processes by examining existing procedures, designing new workflows, and ensuring a seamless transition. Utilised tools like Dataloader.io and Gearset to optimize data management and deployment, improving workflow efficiency by 30%.\n" +
+        bullet +
+        " Developed and maintained critical Apex components, including Triggers, Batch, and Schedulable classes with comprehensive Test classes, which reduced processing times and improved overall code reliability.\n" +
+        bullet +
+        " Played a key role in managing the client’s website registration functionality, optimising error handling, enabling language translations for multiple regions, and leveraging Custom Metadata for a streamlined, user-friendly experience.\n",
+      duration: "Dec 2021 - Jun 2024",
     },
     {
       title: "National Informatics Centre, MeitY",
@@ -37,12 +39,6 @@ export default function Experience() {
         bullet +
         " Worked on creating the Frontend part of the Android application using React Native framework.",
       duration: "Jan 2021 - Mar 2021",
-    },
-    {
-      title: "Yugen Education Foundation",
-      category: "Content Editor and Management",
-      experience: "",
-      duration: "September 2019 - December 2019",
     },
   ];
 

@@ -9,9 +9,9 @@ import Skills from "./skills";
 
 export default function Home() {
   return (
-    <div className="app">
+    <div className="app flex flex-col">
       <Navbar />
-      <main className="px-10">
+      <main className="px-10 max-w-6xl self-center">
         <About />
 
         <Experience />
