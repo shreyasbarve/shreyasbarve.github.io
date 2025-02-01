@@ -16,13 +16,15 @@ export default function About() {
         <div>
           <div className="font-semibold space-y-4">
             <p>
-              Result driven Software Engineer with 2 years of professional
-              development experience. Proficient in Full-Stack development. Led
-              the frontend from conception to delivery of the SHINE app on
-              PlayStore which has 500+ downloads. Have experience in Salesforce
-              migration projects, transforming Process Builders to Flows for
-              streamlined automations. Skilled in coding triggers, batch classes
-              and schedulable classes, with focus on minimising the error.
+              Experienced Salesforce Developer with over 3 years of expertise in
+              Apex, LWC, Aura, and Flow Builder, delivering scalable solutions
+              and optimized workflows. Skilled in Service and Experience Cloud
+              configurations, dynamic dashboard design, and process automation.
+              <br />
+              Proficient in tools like Dataloader.io, Gearset, SFDX CLI for
+              seamless data management and deployment. Known for reducing data
+              retrieval efforts and enhancing multilingual user experiences with
+              Custom Metadata and error handling.
               <br />
               <br />
               Topper in the exam{" "}
