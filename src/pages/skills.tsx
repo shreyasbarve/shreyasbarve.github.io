@@ -1,139 +1,73 @@
-export default function Skills() {
-  const imgStyle = {
-    height: 48,
-    width: 48,
-  };
+import ImageComponent from "@/components/ImageComponent";
+import {
+  CSS_ICON,
+  GIT_ICON,
+  HTML_ICON,
+  JAVA_ICON,
+  JAVASCRIPT_ICON,
+  MATERIAL_UI_ICON,
+  MONGODB_ICON,
+  PYTHON_ICON,
+  REACT_ICON,
+  REACT_NATIVE_ICON,
+  SALESFORCE_ICON,
+  SASS_ICON,
+  SQL_ICON,
+} from "@/constants/icons";
 
+export default function Skills() {
   const data = [
     {
       name: "Git",
-      icon: (
-        <img
-          alt="Git icon"
-          src="https://img.icons8.com/color/2x/git.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={GIT_ICON} alt="Git icon" />,
     },
     {
       name: "Salesforce",
-      icon: (
-        <img
-          alt="Salesforce icon"
-          src="https://img.icons8.com/color/2x/salesforce.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={SALESFORCE_ICON} alt="Salesforce icon" />,
     },
     {
       name: "Python",
-      icon: (
-        <img
-          alt="Python icon"
-          src="https://img.icons8.com/color/2x/python.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={PYTHON_ICON} alt="Python icon" />,
     },
     {
       name: "Java",
-      icon: (
-        <img
-          src="https://img.icons8.com/color/2x/java-coffee-cup-logo.png"
-          alt="Java icon"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={JAVA_ICON} alt="Java icon" />,
     },
     {
       name: "SQL",
-      icon: (
-        <img
-          alt="Oracle PL SQL icon"
-          src="https://img.icons8.com/plasticine/2x/oracle-pl-sql--v3.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={SQL_ICON} alt="SQL icon" />,
     },
     {
       name: "HTML",
-      icon: (
-        <img
-          src="https://img.icons8.com/color/2x/html-5.png"
-          alt="Html 5 icon"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={HTML_ICON} alt="Html icon" />,
     },
     {
       name: "CSS",
-      icon: (
-        <img
-          src="https://img.icons8.com/color/2x/css3.png"
-          alt="CSS3 icon"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={CSS_ICON} alt="CSS3 icon" />,
     },
     {
       name: "Javascript",
-      icon: (
-        <img
-          src="https://img.icons8.com/color/2x/javascript.png"
-          alt="JavaScript icon"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={JAVASCRIPT_ICON} alt="JavaScript icon" />,
     },
     {
       name: "MongoDB",
-      icon: (
-        <img
-          src="https://img.icons8.com/color/2x/mongodb.png"
-          alt="MongoDB icon"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={MONGODB_ICON} alt="MongoDB icon" />,
     },
     {
       name: "React",
-      icon: (
-        <img
-          alt="React icon"
-          src="https://img.icons8.com/color/2x/react-native.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={REACT_ICON} alt="React icon" />,
     },
     {
       name: "React Native",
-      icon: (
-        <img
-          alt="React Native icon"
-          src="https://img.icons8.com/nolan/2x/react-native.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={REACT_NATIVE_ICON} alt="React Native icon" />,
     },
     {
       name: "SASS",
-      icon: (
-        <img
-          alt="SASS icon"
-          src="https://img.icons8.com/color/2x/sass.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={SASS_ICON} alt="SASS icon" />,
     },
     {
       name: "Material UI",
-      icon: (
-        <img
-          alt="Material Ui icon"
-          src="https://img.icons8.com/color/2x/material-ui.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={MATERIAL_UI_ICON} alt="Material Ui icon" />,
     },
     {
       name: "Tailwind",

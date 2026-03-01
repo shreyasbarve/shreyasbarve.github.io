@@ -1,31 +1,48 @@
+import ImageComponent from "@/components/ImageComponent";
+import { EXPERIENCE_ICON } from "@/constants/icons";
+
 export default function Experience() {
   let bullet = String.fromCodePoint(8226);
 
   const data = [
     {
       title: "Persistent Systems Limited",
+      category: "Lead Software Engineer",
+      experience:
+        bullet +
+        " Developed and deployed AI-powered Sales Prompt Templates using Agentforce, enabling Sales Experts to efficiently handle customer queries and automate follow-up emails — improving response time and customer engagement.\n" +
+        bullet +
+        " Optimized Sales Cloud Flows for enhanced performance, modularity, and reusability; time and improved maintainability of automation components.\n" +
+        bullet +
+        " Utilized Splunk for proactive debugging and error analysis and Copado Robotic Testing for continuous testing and release quality assurance.",
+      duration: "Oct 2025 - Present",
+    },
+    {
+      title: "Persistent Systems Limited",
       category: "Senior Software Engineer",
       experience:
         bullet +
-        " Built and maintained robust Apex components (Triggers, Batch, Schedulable, Test Classes), Process Builders, Workflow Rules, and Flows, enhancing system reliability by 30% and reducing processing times.\n" +
+        " Delivered scalable solutions in Experience Cloud and Service Cloud, managing object models, settings and component-level access to strengthen data security and compliance.\n" +
         bullet +
-        " Designed and implemented a dynamic LWC Dashboard, integrated with Apex Controllers, improving data access and reducing data retrieval efforts for regional sales teams by over 50%.\n" +
+        " Designed and implemented a dynamic LWC Dashboard displaying real-time Sales KPIs, improving regional sales team productivity by 30% through data visibility and reduced manual reporting\n" +
         bullet +
-        "Worked on complex Experience and Service Cloud projects, configuring Object Models, Sharing Settings, and Org-Wide Addresses for secure, streamlined data flow.\n" +
+        " Enhanced and refactored Aura components for better performance and user experience in customer-facing portals. Built and optimized Apex batch, schedulable, and trigger-based processes, reducing data processing time and improving platform reliability\n" +
         bullet +
-        " Customized user experience with responsive Page Layouts, Lightning Record Pages, AURA, and LWC components, increasing efficiency by up to 40% across teams.",
-      duration: "June 2024 - Present",
+        " Mentored junior developers and reviewed Apex/LWC code to ensure adherence to Salesforce best practices.\n" +
+        bullet +
+        " Received the Top Talent FY2025 award.",
+      duration: "Jun 2024 - Oct 2025",
     },
     {
       title: "Persistent Systems Limited",
       category: "Software Engineer",
       experience:
         bullet +
-        " Spearheaded the conversion of Process Builders to Flows, creating more efficient automated processes by examining existing procedures, designing new workflows, and ensuring a seamless transition. Utilised tools like Dataloader.io and Gearset to optimize data management and deployment, improving workflow efficiency by 30%.\n" +
+        " Led the migration from Process Builders and Workflow Rules to Flows, modernizing legacy automation and aligning with Salesforce’s latest architectural standards\n" +
         bullet +
-        " Developed and maintained critical Apex components, including Triggers, Batch, and Schedulable classes with comprehensive Test classes, which reduced processing times and improved overall code reliability.\n" +
+        " Improved the client website’s registration flow for multilingual regions, implementing Custom Metadata Types for language localization and error handling\n" +
         bullet +
-        " Played a key role in managing the client’s website registration functionality, optimising error handling, enabling language translations for multiple regions, and leveraging Custom Metadata for a streamlined, user-friendly experience.\n",
+        " Contributed to the adoption of Salesforce DevOps practices, ensuring better change tracking and automated validation.\n",
       duration: "Dec 2021 - Jun 2024",
     },
     {
@@ -50,11 +67,7 @@ export default function Experience() {
         {data.map((item, index) => (
           <div key={index}>
             <div className="flex flex-row space-x-8 items-start">
-              <img
-                alt="Experience Skill icon"
-                src="https://img.icons8.com/external-smashingstocks-isometric-smashing-stocks/2x/external-Color-Balance-photography-and-graphic-design-smashingstocks-isometric-smashing-stocks.png"
-                style={{ height: 48, width: 48 }}
-              />
+              <ImageComponent src={EXPERIENCE_ICON} alt="Experience icon" />
               <div className="space-y-1 w-full">
                 <div className="flex flex-row justify-between">
                   <span className="text-xl font-semibold text-blue-700">
