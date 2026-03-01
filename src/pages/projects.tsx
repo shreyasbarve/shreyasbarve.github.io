@@ -1,3 +1,6 @@
+import ImageComponent from "@/components/ImageComponent";
+import { PROJECT_ICON } from "@/constants/icons";
+
 export default function Projects() {
   let bullet = String.fromCodePoint(8226);
 
@@ -54,11 +57,7 @@ export default function Projects() {
         {data.map((item, index) => (
           <div key={index}>
             <div className="flex flex-row space-x-8 items-center">
-              <img
-                alt="Group of Projects icon"
-                src="https://img.icons8.com/dusk/2x/group-of-projects.png"
-                style={{ height: 48, width: 48 }}
-              />
+              <ImageComponent src={PROJECT_ICON} alt="Project icon" />
               <div className="space-y-1">
                 <div className="text-xl font-semibold text-blue-700">
                   <a href={item.site} target="_blank" rel="noreferrer">

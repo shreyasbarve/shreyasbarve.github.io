@@ -3,10 +3,13 @@
  */
 const nextConfig = {
   images: {
-    loader: "akamai",
-    path: "",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "img.icons8.com",
+      },
+    ],
   },
-  assetPrefix: "./",
 };
 
 export default nextConfig;
