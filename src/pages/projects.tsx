@@ -6,45 +6,51 @@ export default function Projects() {
 
   const data = [
     {
-      title: "Smart Parking Management System",
+      title: "E-Commerce Full Stack Web Application",
       description:
-        bullet +
-        " Android application to eliminate the need of parking lot attendant by automating the process of finding parking lots via our custom map.\n" +
-        bullet +
-        " Charging of parking will be done using the number plate of cars which will be done using a small camera fixed at the entrance of parking. The number plate will be mapped to the user registered on the application.\n" +
-        bullet +
-        " Uses YOLOv4 model for number plate detection.",
+        `${bullet}  Architected a full-stack e-commerce platform with a Spring Boot REST API backend and React frontend, covering product catalog, category management, shopping cart, and order processing.` +
+        `\n${bullet} Designed relational data models using Spring Data JPA/Hibernate with complex entity relationships across products, categories, orders, and users, supporting both PostgreSQL and MySQL; implemented backend validation, pagination, and sorting for scalable data handling.` +
+        `\n${bullet} Engineered a custom authentication and authorization system using Spring Security and JWT, implementing role-based access control (RBAC) for customers, sellers, and admins; documented all REST APIs using Swagger/OpenAPI.` +
+        `\n${bullet} Built an interactive map interface allowing users to discover nearby parking locations and view real-time parking availability.` +
+        `\n${bullet} Built a responsive frontend using React Hooks and custom hooks, with global state management via Redux and routing through React Router, styled with Tailwind CSS.` +
+        `\n${bullet} Reduced manual intervention by eliminating the need for parking attendants through automated vehicle identification and billing.`,
       site: "#",
     },
     {
-      title: "Disease Predictor",
+      title: "Smart Parking Management System",
       description:
-        bullet +
-        " Web based application for prediction of diseases like Diabetes and Pneumonia.\n" +
-        bullet +
-        " Created the frontend for the application using React framework and worked with the Firebase realtime database, API calls.",
+        `${bullet} Developed a cross-platform smart parking application using React Native that automates parking lot entry, parking allocation, and digital payment workflows` +
+        `\n${bullet} Integrated a YOLOv4-based Automatic Number Plate Recognition (ANPR) pipeline to detect and identify vehicle license plates from live camera feeds at parking entrances.` +
+        `\n${bullet} Designed a system that maps recognized vehicle numbers to registered user accounts, enabling contactless entry and automated parking fee calculation.` +
+        `\n${bullet} Built an interactive map interface allowing users to discover nearby parking locations and view real-time parking availability.` +
+        `\n${bullet} Optimized the computer vision pipeline for improved detection accuracy under varying lighting and viewing conditions.` +
+        `\n${bullet} Reduced manual intervention by eliminating the need for parking attendants through automated vehicle identification and billing.`,
+      site: "#",
+    },
+    {
+      title: "AI-Based Disease Prediction Platform",
+      description:
+        `\n${bullet} Developed the React frontend for an AI-powered disease prediction platform, enabling users to assess the risk of Diabetes and Pneumonia through image uploads and clinical data input.` +
+        `\n${bullet} Integrated REST APIs and Firebase Realtime Database to manage patient records, deliver real-time prediction results, and securely store historical diagnostic reports.` +
+        `\n${bullet} Built features for CT scan image upload, health parameter submission, and a personalized dashboard that allowed users to view and track previous prediction reports.` +
+        `\n${bullet} Designed a responsive, user-friendly interface that simplified access to AI-assisted healthcare insights while ensuring a seamless end-to-end user experience.`,
       site: "https://diseasepredictor.netlify.app/",
     },
     {
       title: "SHINE In Exams",
       description:
-        bullet +
-        " Serve as a helpline for students who are appearing for board exams for first time during COVID pandemic\n" +
-        bullet +
-        " Team of education department will be present to reply to the queries submitted by the students\n" +
-        bullet +
-        " Contains FAQs, list of examination centres, Time-Table, link to the official website etc.",
+        `${bullet} Developed SHINE (Students Helpline in Exams), a React Native mobile application for the National Informatics Centre (NIC), providing a centralized support platform for students appearing for board examinations during the COVID-19 pandemic.` +
+        `\n${bullet} Owned the project lifecycle from requirements gathering to final delivery, building the Android frontend in React Native with a responsive, intuitive UI for seamless navigation and accessibility.` +
+        `\n${bullet} Implemented features including a student query management system, FAQs, examination centre information, exam timetables, official notifications, and government website integration, enabling Education Department officials to efficiently address student queries through a single platform.`,
       site: "https://play.google.com/store/apps/details?id=in.nic.mah.shine",
     },
     {
-      title: "Classroom Management System",
+      title: "Learnzilla – Cross-Platform Learning Management System",
       description:
-        bullet +
-        " A platform for small time tutions and classes or even schools who cannot afford g-suite or similar online platforms\n" +
-        bullet +
-        " One stop platform for all materials like exams, marks, assignments, attendance, performance report\n" +
-        bullet +
-        " Available for both Web and Mobile",
+        `${bullet} Built a full-stack cross-platform Learning Management System (LMS) using React, React Native, Django, and Django REST Framework, providing an affordable digital classroom solution for tuition centers and small schools.` +
+        `\n${bullet} Implemented core academic modules including attendance tracking, assignment management, examinations, grading, study material sharing, and performance reporting, streamlining teacher–student collaboration.` +
+        `\n${bullet} Designed responsive web and mobile applications with role-based access, enabling teachers to efficiently manage classes while providing students with centralized access to learning resources.` +
+        `\n${bullet} Deployed the solution on Netlify and Heroku, delivering a scalable and accessible platform that eliminated the need for fragmented communication through messaging apps.`,
       site: "https://learnzillaedu.netlify.app/",
     },
   ];
