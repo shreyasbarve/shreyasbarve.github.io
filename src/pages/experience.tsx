@@ -42,7 +42,7 @@ export default function Experience() {
         "Enhanced a multilingual customer registration application using Lightning components and Custom Metadata Types for dynamic localization and error handling." +
         bullet +
         "Contributed to Salesforce DevOps adoption by implementing automated validation processes, deployment controls, and CI/CD practices that improved release reliability.",
-      duration: "Dec 2021 - Jun 2024",
+      duration: "Jun 2022 - Jun 2024",
     },
     {
       title: "National Informatics Centre, MeitY",
