@@ -1,3 +1,6 @@
+import ImageComponent from "@/components/ImageComponent";
+import { CERTIFICATE_ICON } from "@/constants/icons";
+
 export default function Certificates() {
   const data = [
     {
@@ -54,11 +57,7 @@ export default function Certificates() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {data.map((item, index) => (
           <div key={index} className="flex flex-row space-x-8 items-center">
-            <img
-              alt="Medal icon"
-              src="https://img.icons8.com/?size=2x&id=gJF2plDK9Taj&format=png"
-              style={{ height: 48, width: 48 }}
-            />
+            <ImageComponent src={CERTIFICATE_ICON} alt="Certificates icon" />
             <div className="flex flex-col space-y-2">
               <a href={item.link} target="_blank" rel="noreferrer">
                 <div className="text-xl font-semibold text-blue-700">

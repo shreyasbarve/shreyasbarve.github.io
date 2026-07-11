@@ -1,39 +1,26 @@
-export default function Social() {
-  const imgStyle = { height: 48, width: 48 };
+import ImageComponent from "@/components/ImageComponent";
+import {
+  GTIHUB_ICON,
+  LINKEDIN_ICON,
+  SALESFORCE_ICON_2,
+} from "@/constants/icons";
 
+export default function Social() {
   const social = [
     {
       name: "LinkedIn",
       link: "https://in.linkedin.com/in/shreyasbarve13",
-      icon: (
-        <img
-          alt="LinkedIn icon"
-          src="https://img.icons8.com/plasticine/2x/linkedin.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={LINKEDIN_ICON} alt="LinkedIn icon" />,
     },
     {
       name: "Github",
       link: "https://github.com/shreyasbarve",
-      icon: (
-        <img
-          alt="GitHub icon"
-          src="https://img.icons8.com/plasticine/2x/github.png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={GTIHUB_ICON} alt="GitHub icon" />,
     },
     {
       name: "Salesforce",
       link: "https://www.salesforce.com/trailblazer/shreyasbarve",
-      icon: (
-        <img
-          alt="Salesforce icon"
-          src="https://img.icons8.com/?size=2x&id=65857&format=png"
-          style={imgStyle}
-        />
-      ),
+      icon: <ImageComponent src={SALESFORCE_ICON_2} alt="Salesforce icon" />,
     },
   ];
 

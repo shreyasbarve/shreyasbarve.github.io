@@ -16,7 +16,7 @@ export default function About() {
         <div>
           <div className="font-semibold space-y-4">
             <p>
-              Experienced Salesforce Developer with over 3 years of expertise in
+              Experienced Salesforce Developer with over 4 years of expertise in
               Apex, LWC, Aura, and Flow Builder, delivering scalable solutions
               and optimized workflows. Skilled in Service and Experience Cloud
               configurations, dynamic dashboard design, and process automation.

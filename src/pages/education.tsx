@@ -1,3 +1,6 @@
+import ImageComponent from "@/components/ImageComponent";
+import { EDUCATION_ICON } from "@/constants/icons";
+
 export default function Education() {
   const data = [
     {
@@ -25,11 +28,7 @@ export default function Education() {
         {data.map((item, index) => (
           <div key={index}>
             <div className="flex flex-row space-x-8 items-center">
-              <img
-                src="https://img.icons8.com/officel/2x/homework.png"
-                alt="Homework icon"
-                style={{ height: 48, width: 48 }}
-              />
+              <ImageComponent src={EDUCATION_ICON} alt="Education icon" />
               <div className="space-y-1">
                 <div className="text-xl font-semibold text-blue-700">
                   {item.title}

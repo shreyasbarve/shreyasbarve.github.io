@@ -1,43 +1,59 @@
+import ImageComponent from "@/components/ImageComponent";
+import { EXPERIENCE_ICON } from "@/constants/icons";
+
 export default function Experience() {
-  let bullet = String.fromCodePoint(8226);
+  let firstBullet = String.fromCodePoint(8226) + " ";
+  let bullet = "\n" + String.fromCodePoint(8226) + " ";
 
   const data = [
     {
       title: "Persistent Systems Limited",
+      category: "Lead Software Engineer",
+      experience:
+        firstBullet +
+        "Designed and deployed AI-powered Agentforce solutions leveraging Salesforce Prompt Builder and Generative AI capabilities, enabling 100+ sales users to automate customer interactions and follow-up workflows while improving response efficiency." +
+        bullet +
+        "Optimized Salesforce automation and backend business processes through reusable Flow components and Apex-based enhancements, reducing execution time by 35% and improving scalability." +
+        bullet +
+        "Utilized Splunk for application monitoring, production issue troubleshooting, and root cause analysis while supporting CI/CD-driven deployments using Copado.",
+      duration: "Oct 2025 - Present",
+    },
+    {
+      title: "Persistent Systems Limited",
       category: "Senior Software Engineer",
       experience:
+        firstBullet +
+        "Designed and developed scalable Salesforce applications across Experience Cloud and Service Cloud using Apex, Lightning Web Components, and platform automation while enforcing security and access-control best practices." +
         bullet +
-        " Built and maintained robust Apex components (Triggers, Batch, Schedulable, Test Classes), Process Builders, Workflow Rules, and Flows, enhancing system reliability by 30% and reducing processing times.\n" +
+        "Developed a real-time Lightning Web Components (LWC) dashboard integrating multiple Salesforce data sources, improving operational visibility and reducing manual reporting efforts by 30%." +
         bullet +
-        " Designed and implemented a dynamic LWC Dashboard, integrated with Apex Controllers, improving data access and reducing data retrieval efforts for regional sales teams by over 50%.\n" +
+        "Enhanced Aura Components and optimized asynchronous Apex processes including Batch Apex, Scheduled Apex, and Triggers, reducing processing time by 40% and improving system reliability." +
         bullet +
-        "Worked on complex Experience and Service Cloud projects, configuring Object Models, Sharing Settings, and Org-Wide Addresses for secure, streamlined data flow.\n" +
-        bullet +
-        " Customized user experience with responsive Page Layouts, Lightning Record Pages, AURA, and LWC components, increasing efficiency by up to 40% across teams.",
-      duration: "June 2024 - Present",
+        "Conducted Apex and LWC code reviews, contributed to technical design discussions, and mentored junior developers on Salesforce development best practices; recognized with the Top Talent FY2025 award for high-impact contributions and consistent delivery excellence",
+      duration: "Jun 2024 - Oct 2025",
     },
     {
       title: "Persistent Systems Limited",
       category: "Software Engineer",
       experience:
+        firstBullet +
+        "Led migration of 20+ legacy Process Builders and Workflow Rules to Salesforce Flow, reducing technical debt and aligning platform automation with modern Salesforce architecture." +
         bullet +
-        " Spearheaded the conversion of Process Builders to Flows, creating more efficient automated processes by examining existing procedures, designing new workflows, and ensuring a seamless transition. Utilised tools like Dataloader.io and Gearset to optimize data management and deployment, improving workflow efficiency by 30%.\n" +
+        "Enhanced a multilingual customer registration application using Lightning components and Custom Metadata Types for dynamic localization and error handling." +
         bullet +
-        " Developed and maintained critical Apex components, including Triggers, Batch, and Schedulable classes with comprehensive Test classes, which reduced processing times and improved overall code reliability.\n" +
-        bullet +
-        " Played a key role in managing the client’s website registration functionality, optimising error handling, enabling language translations for multiple regions, and leveraging Custom Metadata for a streamlined, user-friendly experience.\n",
+        "Contributed to Salesforce DevOps adoption by implementing automated validation processes, deployment controls, and CI/CD practices that improved release reliability.",
       duration: "Dec 2021 - Jun 2024",
     },
     {
       title: "National Informatics Centre, MeitY",
       category: "Student Developer",
       experience:
+        firstBullet +
+        "Development of a live project titled Students Helpline in Exams (SHINE) (500+ downloads) which is a mobile based app for NIC." +
         bullet +
-        " Development of a live project titled Students Helpline in Exams (SHINE) (500+ downloads) which is a mobile based app for NIC.\n" +
+        "Involved in the project right from conception to delivery of the final product." +
         bullet +
-        " Involved in the project right from conception to delivery of the final product.\n" +
-        bullet +
-        " Worked on creating the Frontend part of the Android application using React Native framework.",
+        "Worked on creating the Frontend part of the Android application using React Native framework.",
       duration: "Jan 2021 - Mar 2021",
     },
   ];
@@ -50,11 +66,7 @@ export default function Experience() {
         {data.map((item, index) => (
           <div key={index}>
             <div className="flex flex-row space-x-8 items-start">
-              <img
-                alt="Experience Skill icon"
-                src="https://img.icons8.com/external-smashingstocks-isometric-smashing-stocks/2x/external-Color-Balance-photography-and-graphic-design-smashingstocks-isometric-smashing-stocks.png"
-                style={{ height: 48, width: 48 }}
-              />
+              <ImageComponent src={EXPERIENCE_ICON} alt="Experience icon" />
               <div className="space-y-1 w-full">
                 <div className="flex flex-row justify-between">
                   <span className="text-xl font-semibold text-blue-700">
