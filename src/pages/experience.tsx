@@ -2,59 +2,58 @@ import ImageComponent from "@/components/ImageComponent";
 import { EXPERIENCE_ICON } from "@/constants/icons";
 
 export default function Experience() {
-  let bullet = String.fromCodePoint(8226);
+  let firstBullet = String.fromCodePoint(8226) + " ";
+  let bullet = "\n" + String.fromCodePoint(8226) + " ";
 
   const data = [
     {
       title: "Persistent Systems Limited",
       category: "Lead Software Engineer",
       experience:
+        firstBullet +
+        "Designed and deployed AI-powered Agentforce solutions leveraging Salesforce Prompt Builder and Generative AI capabilities, enabling 100+ sales users to automate customer interactions and follow-up workflows while improving response efficiency." +
         bullet +
-        " Developed and deployed AI-powered Sales Prompt Templates using Agentforce, enabling Sales Experts to efficiently handle customer queries and automate follow-up emails — improving response time and customer engagement.\n" +
+        "Optimized Salesforce automation and backend business processes through reusable Flow components and Apex-based enhancements, reducing execution time by 35% and improving scalability." +
         bullet +
-        " Optimized Sales Cloud Flows for enhanced performance, modularity, and reusability; time and improved maintainability of automation components.\n" +
-        bullet +
-        " Utilized Splunk for proactive debugging and error analysis and Copado Robotic Testing for continuous testing and release quality assurance.",
+        "Utilized Splunk for application monitoring, production issue troubleshooting, and root cause analysis while supporting CI/CD-driven deployments using Copado.",
       duration: "Oct 2025 - Present",
     },
     {
       title: "Persistent Systems Limited",
       category: "Senior Software Engineer",
       experience:
+        firstBullet +
+        "Designed and developed scalable Salesforce applications across Experience Cloud and Service Cloud using Apex, Lightning Web Components, and platform automation while enforcing security and access-control best practices." +
         bullet +
-        " Delivered scalable solutions in Experience Cloud and Service Cloud, managing object models, settings and component-level access to strengthen data security and compliance.\n" +
+        "Developed a real-time Lightning Web Components (LWC) dashboard integrating multiple Salesforce data sources, improving operational visibility and reducing manual reporting efforts by 30%." +
         bullet +
-        " Designed and implemented a dynamic LWC Dashboard displaying real-time Sales KPIs, improving regional sales team productivity by 30% through data visibility and reduced manual reporting\n" +
+        "Enhanced Aura Components and optimized asynchronous Apex processes including Batch Apex, Scheduled Apex, and Triggers, reducing processing time by 40% and improving system reliability." +
         bullet +
-        " Enhanced and refactored Aura components for better performance and user experience in customer-facing portals. Built and optimized Apex batch, schedulable, and trigger-based processes, reducing data processing time and improving platform reliability\n" +
-        bullet +
-        " Mentored junior developers and reviewed Apex/LWC code to ensure adherence to Salesforce best practices.\n" +
-        bullet +
-        " Received the Top Talent FY2025 award.",
+        "Conducted Apex and LWC code reviews, contributed to technical design discussions, and mentored junior developers on Salesforce development best practices; recognized with the Top Talent FY2025 award for high-impact contributions and consistent delivery excellence",
       duration: "Jun 2024 - Oct 2025",
     },
     {
       title: "Persistent Systems Limited",
       category: "Software Engineer",
       experience:
+        firstBullet +
+        "Led migration of 20+ legacy Process Builders and Workflow Rules to Salesforce Flow, reducing technical debt and aligning platform automation with modern Salesforce architecture." +
         bullet +
-        " Led the migration from Process Builders and Workflow Rules to Flows, modernizing legacy automation and aligning with Salesforce’s latest architectural standards\n" +
+        "Enhanced a multilingual customer registration application using Lightning components and Custom Metadata Types for dynamic localization and error handling." +
         bullet +
-        " Improved the client website’s registration flow for multilingual regions, implementing Custom Metadata Types for language localization and error handling\n" +
-        bullet +
-        " Contributed to the adoption of Salesforce DevOps practices, ensuring better change tracking and automated validation.\n",
+        "Contributed to Salesforce DevOps adoption by implementing automated validation processes, deployment controls, and CI/CD practices that improved release reliability.",
       duration: "Dec 2021 - Jun 2024",
     },
     {
       title: "National Informatics Centre, MeitY",
       category: "Student Developer",
       experience:
+        firstBullet +
+        "Development of a live project titled Students Helpline in Exams (SHINE) (500+ downloads) which is a mobile based app for NIC." +
         bullet +
-        " Development of a live project titled Students Helpline in Exams (SHINE) (500+ downloads) which is a mobile based app for NIC.\n" +
+        "Involved in the project right from conception to delivery of the final product." +
         bullet +
-        " Involved in the project right from conception to delivery of the final product.\n" +
-        bullet +
-        " Worked on creating the Frontend part of the Android application using React Native framework.",
+        "Worked on creating the Frontend part of the Android application using React Native framework.",
       duration: "Jan 2021 - Mar 2021",
     },
   ];
