@@ -36,6 +36,9 @@ export const SASS_ICON = "https://img.icons8.com/color/2x/sass.png";
 export const MATERIAL_UI_ICON =
   "https://img.icons8.com/color/2x/material-ui.png";
 
+export const SPRING_BOOT_ICON =
+  "https://img.icons8.com/office40/1200/spring-logo.jpg";
+
 // Certificate section icons
 export const CERTIFICATE_ICON =
   "https://img.icons8.com/?size=2x&id=gJF2plDK9Taj&format=png";

@@ -9,7 +9,7 @@ export default function Social() {
   const social = [
     {
       name: "LinkedIn",
-      link: "https://in.linkedin.com/in/shreyasbarve13",
+      link: "https://www.linkedin.com/in/shreyasbarve13",
       icon: <ImageComponent src={LINKEDIN_ICON} alt="LinkedIn icon" />,
     },
     {

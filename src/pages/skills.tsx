@@ -12,30 +12,47 @@ import {
   REACT_NATIVE_ICON,
   SALESFORCE_ICON,
   SASS_ICON,
+  SPRING_BOOT_ICON,
   SQL_ICON,
 } from "@/constants/icons";
 
 export default function Skills() {
   const data = [
     {
-      name: "Git",
-      icon: <ImageComponent src={GIT_ICON} alt="Git icon" />,
-    },
-    {
       name: "Salesforce",
       icon: <ImageComponent src={SALESFORCE_ICON} alt="Salesforce icon" />,
-    },
-    {
-      name: "Python",
-      icon: <ImageComponent src={PYTHON_ICON} alt="Python icon" />,
     },
     {
       name: "Java",
       icon: <ImageComponent src={JAVA_ICON} alt="Java icon" />,
     },
     {
+      name: "Spring Boot",
+      icon: <ImageComponent src={SPRING_BOOT_ICON} alt="Spring Boot icon" />,
+    },
+    {
+      name: "React",
+      icon: <ImageComponent src={REACT_ICON} alt="React icon" />,
+    },
+    {
       name: "SQL",
       icon: <ImageComponent src={SQL_ICON} alt="SQL icon" />,
+    },
+    {
+      name: "MongoDB",
+      icon: <ImageComponent src={MONGODB_ICON} alt="MongoDB icon" />,
+    },
+    {
+      name: "Git",
+      icon: <ImageComponent src={GIT_ICON} alt="Git icon" />,
+    },
+    {
+      name: "Python",
+      icon: <ImageComponent src={PYTHON_ICON} alt="Python icon" />,
+    },
+    {
+      name: "React Native",
+      icon: <ImageComponent src={REACT_NATIVE_ICON} alt="React Native icon" />,
     },
     {
       name: "HTML",
@@ -48,18 +65,6 @@ export default function Skills() {
     {
       name: "Javascript",
       icon: <ImageComponent src={JAVASCRIPT_ICON} alt="JavaScript icon" />,
-    },
-    {
-      name: "MongoDB",
-      icon: <ImageComponent src={MONGODB_ICON} alt="MongoDB icon" />,
-    },
-    {
-      name: "React",
-      icon: <ImageComponent src={REACT_ICON} alt="React icon" />,
-    },
-    {
-      name: "React Native",
-      icon: <ImageComponent src={REACT_NATIVE_ICON} alt="React Native icon" />,
     },
     {
       name: "SASS",

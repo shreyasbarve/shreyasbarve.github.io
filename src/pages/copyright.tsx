@@ -12,7 +12,7 @@ export default function Copyright() {
 
       <div>
         Copyright &copy; {new Date().getFullYear()} Shreyas Barve, All Rights
-        Reserved
+        Reserved. Icons by <a href="https://icons8.com/">Icons8</a>
       </div>
     </section>
   );
